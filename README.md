@@ -26,8 +26,11 @@ It takes musical piece from JSON file, handles it and saves to another JSON file
    ```
 2. Run the JAR file with the following command:
    ```bash
-   java -jar transposition-1.0-SNAPSHOT-jar-with-dependencies.jar
+   java -jar transposition-1.0-SNAPSHOT-jar-with-dependencies.jar <input file path> <offset> <output file path>
    ```
-3. Follow the application instructions.
+   For example:
+      ```bash
+   java -jar transposition-1.0-SNAPSHOT-jar-with-dependencies.jar ../input.json -3 ../output.json
+   ```
 
 
