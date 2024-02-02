@@ -8,6 +8,7 @@ public class Main {
         Solution s = new Solution();
         try {
             s.transposeMelody(args[0], Integer.parseInt(args[1]), args[2]); // main logic execution
+            System.out.println("Transposition completed successfully!");
         }catch (IndexOutOfBoundsException e) {
             System.out.println("Error: Not all parameters are specified");
             System.exit(2);
